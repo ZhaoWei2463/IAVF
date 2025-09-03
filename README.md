@@ -1,4 +1,4 @@
 # IAVF
 ## Run The Code
-'''bash
-python main.py'''
+```bash
+python main.py
