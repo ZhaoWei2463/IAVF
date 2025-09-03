@@ -1,0 +1,31 @@
+{
+    "train_config": {
+        "kf" : 10,
+        "epochs": 300,
+        "batch_size": 64,
+        "seed": 8971,
+        "patience" : 1,
+        "weight_decay": 1e-5,
+        "lr":0.0005
+    },
+
+    "model": "IAVF",
+    "dataset": "PROTEINS",
+    "data_dir" : "dataset/TU/",
+    "out_dir": "out/",
+
+     "net_params": {
+            "arc_type" : "GraphSAGE",
+            "dropout" : 0.3,
+            "gcn_nums" : 3,
+            "sz_c" : 4,
+            "gcn_h_dim" : 128,
+            "att_drop_ratio": 0.0,
+            "gama": 1.0,
+            "share_h_dim": 128,
+            "temp": 1.0,
+            "graph_norm": true,
+            "d_kv": 32,
+            "gcn_dropout": 0.0
+     }
+}

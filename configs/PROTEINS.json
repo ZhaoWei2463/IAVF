@@ -1,1 +1,13 @@
-
+{
+    "lr": 0.0005,
+    "dropout": 0.5,
+    "gama": 0.1,
+    "temp": 0.3,
+    "share_h_dim": 256,
+    "batch_size": 64,
+    "weight_decay": 0.001,
+    "sz_c": 5,
+    "gcn_dropout": 0.3,
+    "gcn_nums": 6,
+    "att_drop_ratio": 0.0
+}
